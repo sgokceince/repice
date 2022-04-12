@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=Hubballi&family=Nunito+Sans:wght@400;600;700&family=Open+Sans:wght@400;700&family=Shadows+Into+Light&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+   background-color: bisque;
+}
+.text {
+    margin: 5px;
+}
+.detalist {
+    margin-left: calc(50% - 100px);
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.detalist p {
+    display: inline-block;
+}
+.detalist p span{
+   color: red;
+   text-decoration: underline;
+}
+.contents {
+    margin-left: calc(50% - 100px);
+}
+h4 {
+    text-decoration: underline;
+}
+
+.tarıf li:last-child {
+    list-style-type: none;
+    margin-left: 60%;
+}
